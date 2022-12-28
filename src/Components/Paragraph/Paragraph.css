@@ -1,0 +1,12 @@
+.orange{
+    color: var(--orange);
+}
+.gray{
+    color: var(--gray);
+}
+.white{
+    color: white;
+}
+p:hover{
+    cursor: pointer;
+}
