@@ -1,11 +1,11 @@
 import './Footer.css'
-import logoFooter from './../../../Img/logo_footer.png'
 export const Footer = () => {
     return (
         <footer>
+            <div className='container_footer'>
             <div className='container_text'>
                 <p className='text'>
-                    <img src={logoFooter} alt="" />
+                    <img src='https://cdn.discordapp.com/attachments/1053495855103098951/1059526854081515590/Frame_4.png' alt="logo footer" className='logo_footer' />
                     <br></br>
                     <br></br>
                     A empresa tem a intenção de prover o serviço
@@ -43,6 +43,7 @@ export const Footer = () => {
                 <br></br>
                 <p className='text'>Termos e serviços</p>
                 <br></br>
+            </div>
             </div>
             <div className='container_copy'> 
                 <p className='text'>RealHosting Hospedagem Ltda. Copyright
