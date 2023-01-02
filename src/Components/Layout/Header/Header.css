@@ -4,7 +4,7 @@
 }
 
 header>nav {
-    background-color: black;
+    background-color: white;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -49,6 +49,7 @@ header>nav {
 .logo {
     margin-left: 12px;
     margin-right: 12px;
+    width: 125px;
 }
 
 
