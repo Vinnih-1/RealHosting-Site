@@ -1,0 +1,42 @@
+.section_banner{
+    background-image: url('https://cdn.discordapp.com/attachments/1053495855103098951/1059525869573505104/Rectangle_597.png');
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_banner{
+    width: 90%;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    margin-right: 3rem;
+}
+.text_banner{
+    color: #C7C7C7;
+    font-family: 'Inter', sans-serif;
+    font-size: 12.5px;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 8rem;
+    height: 2rem;
+}
+
+@media screen and (min-width: 360px) {
+    section{
+        background-image: url('https://cdn.discordapp.com/attachments/1053495855103098951/1059526121412100178/Rectangle_5973.png');
+    }
+    
+}
