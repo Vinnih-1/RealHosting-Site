@@ -1,0 +1,10 @@
+.section_plans{
+    background-color: #F9F3EB;
+    margin-bottom: 5rem;
+}
+.card_plans{
+    width: 300px;
+    height: 389px;
+    border-radius: 25px;
+    background-color: white;
+}
