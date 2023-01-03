@@ -1,11 +1,34 @@
-.text_about{
-    font-size: 17px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    color:  #828282;
+.section_about{
+    display: flex;
+    padding-top: 1rem;
+    overflow: hidden;
+    
+}
+.container_cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
 .container_about{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 1rem;
+    
+}
+.text_about{
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color:  #828282;
+    margin-left: 0.5rem;
+    width: 6.5rem;
+}
+
+@media screen and (min-width: 900px) {
+    .section_about{
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+    
 }
