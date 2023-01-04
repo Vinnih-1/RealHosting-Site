@@ -13,11 +13,11 @@ export const Header = () => {
                 <div className='container_warns'>
                     <div>
                         <img src={discord} alt="Icone do discord" />
-                        <Paragraph color="white" text="Atendimento via Discord RealHosting"/>     
+                        <Paragraph color="white" text="Atendimento via Discord RealHosting" />
                     </div>
                     <div>
                         <img src={termos} alt="Termos e Políticas" />
-                        <Paragraph color="white" text="Termos e Políticas"/>
+                        <Paragraph color="white" text="Termos e Políticas" />
                     </div>
                 </div>
             </div>
@@ -34,10 +34,10 @@ export const Header = () => {
                         <li>Suporte</li>
                     </ul>
                     <div className='container_nav-desk'>
-                        <Paragraph color="orange" text="Registre-se"/>
+                        <Paragraph color="orange" text="Registre-se" />
                         <div className='container_button'>
-                        <img src={user2} alt="área do cliente" className='icon_user2' />
-                        <Paragraph color="white" text="Minha conta"/>
+                            <img src={user2} alt="área do cliente" className='icon_user2' />
+                            <Paragraph color="white" text="Minha conta" />
                         </div>
                     </div>
                     <img src={user} alt="área do cliente" className='icon_user' />

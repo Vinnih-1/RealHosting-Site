@@ -1,0 +1,79 @@
+.card {
+    width: 300px;
+    height: 389px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    margin-right: 1rem;
+
+
+}
+
+.container_card {
+    margin-left: 17px;
+    margin-right: 25px;
+    margin-bottom: 39px;
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_card_plans {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 31px;
+}
+
+.text_card_plans {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #828282;
+}
+
+.text_card_month {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+strong {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FF9800;
+
+}
+
+.text_details_plans {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.button_plans {
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 215px;
+    height: 38px;
+}
+
+.button_plans:hover {
+    background-color: #DB9939;
+    cursor: pointer;
+}
+
+.button_plans:active {
+    background-color: #B06900;
+}
