@@ -1,18 +1,20 @@
-import Footer from "./Components/Layout/Footer/Footer";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./Components/Layout/Header/Header";
-import Banner from "./Components/Layout/Banner/Banner";
-import About from "./Components/Layout/About/About";
-import Plans from "./Components/Layout/Plans/Plans";
+import Footer from "./Components/Layout/Footer/Footer";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Header />
-      <Banner />
-      <About />
-      <Plans />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="serviços" element={<Services />}/>
+        <Route />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
