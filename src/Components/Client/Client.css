@@ -1,0 +1,56 @@
+.container_testimony_client {
+    width: 289px;
+    margin-top: 52px;
+}
+
+.container_client {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+    width: 289px;
+}
+
+.image_client {
+    margin-right: 1rem;
+}
+
+.name_client {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #828282;
+}
+
+.name_client>strong {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.comment_client {
+    color: #828282;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media screen and (min-width:600px) {
+    .container_testimony_client {
+        width: 365px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 86px;
+    }
+
+    .name_client {
+        font-size: 17px;
+    }
+
+    .name_client>strong {
+        font-size: 15px;
+    }
+
+    .comment_client {
+        font-size: 17px;
+    }
+
+
+}
