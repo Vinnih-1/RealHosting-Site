@@ -10,4 +10,3 @@ export const Client = ({image, client, comment})=>{
         </div>
     )
 }
-export default Client
