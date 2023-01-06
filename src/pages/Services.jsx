@@ -3,4 +3,3 @@ export const Services = ()=>{
         <h1>Serviços do zummys e AZULLLL</h1>
     )
 }
-export default Services
