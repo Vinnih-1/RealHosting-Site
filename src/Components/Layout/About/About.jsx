@@ -1,10 +1,10 @@
 import { useEffect, useState, useRef } from 'react'
 import { motion } from 'framer-motion'
-import suport from './../../../Img/about/suporte.png'
-import protection from './../../../Img/about/protecao.png'
-import host from './../../../Img/about/hospedagem.png'
-import quality from './../../../Img/about/qualidade.png'
-import system from './../../../Img/about/sistemas.png'
+import suport from './../../../assets/Img/about/suporte.png'
+import protection from './../../../assets/Img/about/protecao.png'
+import host from './../../../assets/Img/about/hospedagem.png'
+import quality from './../../../assets/Img/about/qualidade.png'
+import system from './../../../assets/Img/about/sistemas.png'
 import './About.css'
 export const About = () => {
 
@@ -47,4 +47,3 @@ export const About = () => {
         </motion.section>
     )
 }
-export default About
