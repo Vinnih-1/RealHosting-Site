@@ -6,4 +6,3 @@ export const Paragraph = ({color, text}) =>{
     )
 }
 
-export default Paragraph
