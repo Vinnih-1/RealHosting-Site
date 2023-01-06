@@ -1,4 +1,4 @@
-import Client from '../../Client/Client'
+import {Client} from '../../Client/Client'
 import './Testimony.css'
 export const Testimony = () => {
     return (
@@ -30,4 +30,3 @@ export const Testimony = () => {
         </section>
     )
 }
-export default Testimony
