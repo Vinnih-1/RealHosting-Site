@@ -1,10 +1,10 @@
 import './Header.css'
-import hamburguer from './../../../Img/hamburguer.svg'
-import user from './../../../Img/user.svg'
-import user2 from './../../../Img/user2.svg'
-import discord from './../../../Img/discord.svg'
-import termos from './../../../Img/termos.svg'
-import Paragraph from '../../Paragraph/Paragraph'
+import hamburguer from './../../../assets/Img/hamburguer.svg'
+import user from './../../../assets/Img/user.svg'
+import user2 from './../../../assets/Img/user2.svg'
+import discord from './../../../assets/Img/discord.svg'
+import termos from './../../../assets/Img/termos.svg'
+import {Paragraph} from '../../Paragraph/Paragraph'
 
 export const Header = () => {
     return (
@@ -47,4 +47,3 @@ export const Header = () => {
     )
 }
 
-export default Header

@@ -1,9 +1,9 @@
 
-import Banner from "./../Components/Layout/Banner/Banner";
-import About from "./../Components/Layout/About/About";
-import Plans from "./../Components/Layout/Plans/Plans";
-import Testimony from "../Components/Layout/Testimony/Testimony";
-import Question from "../Components/Layout/Question/Question";
+import {Banner} from "../components/Layout/Banner/Banner";
+import {About} from "../components/Layout/About/About";
+import {Plans} from "../components/Layout/Plans/Plans";
+import {Testimony} from "../components/Layout/Testimony/Testimony";
+import {Question} from "../components/Layout/Question/Question";
 export const Home = () => {
     return (
         <div>      
@@ -15,4 +15,3 @@ export const Home = () => {
         </div>
     )
 }
-export default Home

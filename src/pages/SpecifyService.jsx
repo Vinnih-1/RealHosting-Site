@@ -3,4 +3,3 @@ export const SpecifyService = ()=>{
         <></>
     )
 }
-export default SpecifyService

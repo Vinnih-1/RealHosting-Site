@@ -21,4 +21,3 @@ export const Card = ({ image, title, price, text }) => {
         </div>
     )
 }
-export default Card

@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Header from "./Components/Layout/Header/Header";
-import Footer from "./Components/Layout/Footer/Footer";
-import Home from "./pages/Home";
-import Services from "./pages/Services";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {Header} from "./components/Layout/Header/Header";
+import {Footer} from "./components/Layout/Footer/Footer";
+import {Home} from "./pages/Home";
+import {Services} from "./pages/Services";
 
-function App() {
+export const App = ()=> {
   return (
     <Router>
       <Header />
@@ -17,5 +17,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
