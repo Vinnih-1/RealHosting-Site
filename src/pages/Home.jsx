@@ -1,9 +1,9 @@
 
-import {Banner} from "../components/Layout/Banner/Banner";
-import {About} from "../components/Layout/About/About";
-import {Plans} from "../components/Layout/Plans/Plans";
-import {Testimony} from "../components/Layout/Testimony/Testimony";
-import {Question} from "../components/Layout/Question/Question";
+import {Banner} from "../components/Layout/Home/Banner/Banner";
+import {About} from "../components/Layout/Home/About/About";
+import {Plans} from "../components/Layout/Home/Plans/Plans";
+import {Testimony} from "../components/Layout/Home/Testimony/Testimony";
+import {Question} from "../components/Layout/Home/Question/Question";
 export const Home = () => {
     return (
         <div>      
