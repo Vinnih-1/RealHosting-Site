@@ -1,12 +1,25 @@
-import {Client} from '../../Client/Client'
+import { useEffect, useState, useRef } from 'react'
+import { motion } from 'framer-motion'
+import { Client } from '../../../Client/Client'
 import './Testimony.css'
 export const Testimony = () => {
+    const carousel = useRef();
+    const [width, setWidth] = useState();
+
+    useEffect(() => {
+        setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
+    }, [])
     return (
-        <section className='section_testimony'>
+        <motion.section className='section_testimony' ref={carousel} whileTap={{ cursor: 'grabbing' }}>
             <h1 className="title_testimony">Depoimentos de nossos Clientes</h1>
             <p className="text_testimony">Veja alguns depoimentos de clientes que adquiriram
                 alguns dos nossos serviços.</p>
-            <div>
+            <motion.div
+                drag="x"
+                dragConstraints={{ right: 0, left: -width }}
+                initial={{ x: 100 }}
+                animate={{ x: 0 }}
+            >
                 <Client
                     image="https://cdn.discordapp.com/attachments/701489669673844887/1060566748509769728/Ellipse_1.png"
                     client="JS Studio"
@@ -26,7 +39,7 @@ export const Testimony = () => {
                     comment="Serviço de ótima qualidade e
                     com grande proteção, Recomendo!"
                 />
-            </div>
-        </section>
+            </motion.div>
+        </motion.section>
     )
 }

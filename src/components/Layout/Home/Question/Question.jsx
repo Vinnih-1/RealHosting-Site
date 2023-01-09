@@ -1,4 +1,4 @@
-import { Faq } from '../../Faq/Faq'
+import { Faq } from '../../../Faq/Faq'
 import './Question.css'
 export const Question = () => {
     return (

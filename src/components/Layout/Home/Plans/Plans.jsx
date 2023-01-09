@@ -1,6 +1,6 @@
 import {useEffect, useState, useRef} from 'react'
 import {motion} from 'framer-motion'
-import {Card} from '../../Card/Card'
+import {Card} from '../../../Card/Card'
 import './Plans.css'
 export const Plans = () => {
     const carousel = useRef();
