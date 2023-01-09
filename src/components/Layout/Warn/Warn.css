@@ -1,0 +1,45 @@
+.banner_warn{
+    background-color: #F9F3EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_warn{
+   width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_warn{
+    font-weight: 600;
+    font-size: 14px;
+    color: #FF9800;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.text_warn{
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: #828282;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 900px) {
+    .container_warn{
+        width: 55%;
+    }
+    .title_warn{
+        font-size: 25px;
+    }
+    .text_warn{
+        font-size: 17px;
+        margin-top: 13px;
+    }
+    
+}
