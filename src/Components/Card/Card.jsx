@@ -1,8 +1,19 @@
 import './Card.css'
-export const Card = ({ image, title, price, text }) => {
+import styled from 'styled-components'
+export const Card = ({ image, title, price, text, color  }) => {
+
+    const Container = styled.div`
+    width: 300px;
+    height: 389px;
+    border-radius: 25px;
+    background-color: ${color};
+    display: flex;
+    margin-right: 1rem;
+  `
+
     return (
-        <div>
-            <div className='card'>
+        <div >
+            <Container>
                 <div className='container_card'>
                     <img src={image} alt="Icone da hospedagem" />
 
@@ -17,7 +28,7 @@ export const Card = ({ image, title, price, text }) => {
                     </button>
                 </div>
 
-            </div>
+            </Container>
         </div>
     )
 }
