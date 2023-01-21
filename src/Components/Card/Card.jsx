@@ -1,14 +1,11 @@
 import './Card.css'
 import styled from 'styled-components'
-export const Card = ({ image, title, price, text, color  }) => {
+export const Card = ({ image, title, price, text }) => {
 
     const Container = styled.div`
     width: 300px;
     height: 389px;
-    border-radius: 25px;
-    background-color: ${color};
-    display: flex;
-    margin-right: 1rem;
+    margin-right: 2rem;
   `
 
     return (
@@ -27,7 +24,6 @@ export const Card = ({ image, title, price, text, color  }) => {
                         Ver todos os planos
                     </button>
                 </div>
-
             </Container>
         </div>
     )

@@ -1,11 +1,10 @@
 .container_card {
-    margin-left: 17px;
-    margin-right: 25px;
-    margin-bottom: 39px;
-    margin-top: 33px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
 }
 
 .title_card_plans {
