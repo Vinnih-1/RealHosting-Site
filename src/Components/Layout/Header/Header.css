@@ -25,7 +25,7 @@ header>nav {
 
 }
 
-.container_warns>div {
+.container_warns>div> a {
     display: flex;
 }
 
@@ -34,11 +34,22 @@ header>nav {
     margin-left: 0.5rem;
 }
 
+#discord{
+    margin-right: 5px;
+}
+#term{
+    margin-right: 5px;
+}
+
 .container_nav {
     height: 18px;
     width: 300px;
     display: flex;
     justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
 }
 
 .container_nav>div {
@@ -89,6 +100,7 @@ li:hover {
 }
 
 
+
 @media screen and (min-width: 400px) {
 
     .container_nav {
@@ -120,6 +132,10 @@ li:hover {
     }
 
     .icon_user {
+        display: none;
+    }
+
+    #user_link{
         display: none;
     }
 

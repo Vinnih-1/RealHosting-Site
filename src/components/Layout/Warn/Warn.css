@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 32px 0 43px 0;
+    height: 10rem;
 }
 
 .container_warn{
@@ -28,6 +28,7 @@
     font-family: 'Inter', sans-serif;
     color: #828282;
     text-align: center;
+    margin-bottom: 2rem;
 
 }
 
