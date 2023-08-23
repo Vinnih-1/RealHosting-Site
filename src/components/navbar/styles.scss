@@ -1,0 +1,44 @@
+.overtop {
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+.realhosting-color-background {
+    background-color: #FF9800;
+}
+
+.realhosting-account-button {
+    color: #FFFFFF;
+
+    &:hover {
+        background-color: #FF9800;
+        color: #FFFFFF
+    }
+}
+
+.realhosting-dropdown-menu > li > a {
+    color: #FFFFFF;
+
+    &:hover {
+        background-color: #d38c20;
+        color: #FFFFFF;
+    }
+}
+
+.realhosting-color-text {
+    color: #FF9800;
+
+    &:hover {
+        color: #FF9800; 
+    }
+}
+
+.realhosting-navbar-text > .nav-item > .nav-link {
+    color: #828282;
+}
+
+.account-button-image {
+    width: 24px;
+}

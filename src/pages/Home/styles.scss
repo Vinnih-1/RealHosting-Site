@@ -1,0 +1,41 @@
+.header-image {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.705) 0%, rgba(0,0,0,0) 100%), #FF9800;
+
+    .overlay {
+        p {
+            color: #C7C7C7;
+        }
+    }
+}
+
+.services {
+    background-color: #F9F3EB;
+
+    .description {
+        h3 {
+            color:#FF9800;
+        }
+    
+        p {
+            color: #828282;
+        }
+    }
+}
+
+.feedbacks {
+    .description {
+        h3 {
+            color:#FF9800;
+        }
+    
+        p {
+            color: #828282;
+        }
+    }
+}
+
+.faq {
+    h3 {
+        color:#FF9800;
+    }
+}

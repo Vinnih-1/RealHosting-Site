@@ -1,0 +1,35 @@
+.footer {
+    background-color: #F9F3EB;
+
+    .about {
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        text-align: center;
+
+        .about {
+            justify-content: center;
+            max-width: 100%;
+        }
+
+        .contents {
+            flex-direction: column;
+        }
+
+        .links {
+            flex-direction: column;
+        }
+
+        .under-footer {
+            .contents {
+                flex-direction: column;
+                text-align: center;
+                font-size: 13px;
+                gap: 15px;
+            }
+        }
+    }
+}
